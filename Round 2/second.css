@@ -1,0 +1,51 @@
+h1 {
+    color: steelblue;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 50vw;
+    width: 100%;
+    border-radius: 12px;
+    background-color: white;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.display{
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.buttons button {
+    padding: 7px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button:active {
+    transform: scale(0.9);
+}
