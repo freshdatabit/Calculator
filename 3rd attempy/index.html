@@ -12,7 +12,8 @@
 <body>
     <table>
         <tr>
-            <td colspan="3"><input type="text" name="result" placeholder="0"></td>
+            <td data-number="" colspan="3"><input type="text" name="previous" placeholder="0"></td>
+            <td data-number="" colspan="3"><input type="text" name="current" placeholder="0"></td>
         </tr>
         <tr>
             <td><button type="button" value="ac" onclick="clear()">ac</button></td>
@@ -38,6 +39,7 @@
             <td><button type="button" value="/" onclick="divide()">&divide;</button></td>
             <td><button type="button" value="*" onclick="multiply()">&times;</button></td>
             <td><button type="button" value="=" onclick="equal()">=</button></td>
+            <td><button type="button" value="+" onclick="addition()">+</button></td>
         </tr>
     </table>
 </body>
