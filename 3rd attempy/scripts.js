@@ -32,3 +32,7 @@ function addition() {
     displayPrevious.value = sum
 }
 
+function clearDisplay(){
+    storedValue = []
+    displayPrevious.value = storedValue 
+}
