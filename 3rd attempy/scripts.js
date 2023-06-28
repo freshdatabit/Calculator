@@ -25,8 +25,10 @@ function addition() {
         } else {
             sum += parseInt(memory[i], 10);
         }
+    
     }
     console.log(sum)
     console.log(storedValue)
+    displayPrevious.value = sum
 }
 
